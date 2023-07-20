@@ -6,8 +6,8 @@ import { AppComponent } from './app.component';
 import { InicioComponent } from './paginas/inicio/inicio.component';
 import { PersonajesComponent } from './paginas/personajes/personajes.component';
 import { InformacionComponent } from './paginas/informacion/informacion.component';
-import { HechizosComponent } from './componentes/hechizos/hechizos.component';
-import { LibrosComponent } from './componentes/libros/libros.component';
+import { HechizosComponent } from './paginas/hechizos/hechizos.component';
+import { LibrosComponent } from './paginas/libros/libros.component';
 import { MenuComponent } from './componentes/menu/menu.component';
 
 @NgModule({
