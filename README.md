@@ -15,3 +15,16 @@ ng g m paginas/personajes --routing
 ng g m paginas/informacion --routing
 ng g m paginas/hechizos --routing
 ng g m paginas/libros --routing
+
+Creacion de Servicios:
+ng g s servicios/ServicioInicio
+ng g s servicios/ServicioPersonajes
+ng g s servicios/ServicioInformacion
+ng g s servicios/ServicioHechizos
+ng g s servicios/ServicioLibros
+
+Creación de Rutas:
+HTTPS://DOCS.ANGULAR.LAT/TUTORIAL/TOH-PT5
+
+
+
