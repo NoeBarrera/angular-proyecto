@@ -1,1 +1,16 @@
-<p>personajes works!</p>
+<ul class="list-group">
+    <li class="list-group-item" *ngFor="let dato of datos | async">
+
+        <div id="Imagen">
+            
+        </div>
+        <div id="Datos">
+            <h2> {{ dato.name }} </h2>
+            <span> Nombre: {{ dato.name }} <br></span>
+            <span> Casa: {{ dato.house }} <br></span>
+            <span> Cumpleaños: {{ dato.dateOfBirth }} <br></span>
+            <span> Actor: {{ dato.actor }} <br></span>
+        </div>
+
+    </li>
+</ul>

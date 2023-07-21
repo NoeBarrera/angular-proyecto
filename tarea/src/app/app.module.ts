@@ -23,8 +23,6 @@ import { HttpClientModule } from '@angular/common/http'; // Importar http module
     MenuComponent
   ],
 
-
-  
   imports: [
     BrowserModule,
     AppRoutingModule,
