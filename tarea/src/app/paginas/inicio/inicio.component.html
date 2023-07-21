@@ -1,1 +1,7 @@
-<p>inicio works!</p>
+<ul class="list-group">
+    <li class="list-group-item" *ngFor="let dato of datos | async" >
+
+        <h2> {{ dato.name }} </h2>          
+
+    </li>
+</ul>

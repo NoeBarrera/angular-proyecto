@@ -10,6 +10,8 @@ import { HechizosComponent } from './paginas/hechizos/hechizos.component';
 import { LibrosComponent } from './paginas/libros/libros.component';
 import { MenuComponent } from './componentes/menu/menu.component';
 
+import { HttpClientModule } from '@angular/common/http'; // Importar http module para consumir una API
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,9 +22,13 @@ import { MenuComponent } from './componentes/menu/menu.component';
     LibrosComponent,
     MenuComponent
   ],
+
+
+  
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
